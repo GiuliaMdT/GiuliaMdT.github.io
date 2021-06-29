@@ -214,10 +214,18 @@ img{
 }
 
 .percorsi-2colonne .percorso {
-    flex-basis: 50%;
-    width: 50%;
+    flex-basis: 100%;
+    width: 100%;
 
 }
+
+@media screen and (min-width: 650px) {
+    .percorsi-2colonne .percorso {
+        flex-basis: 50%;
+        width: 50%;
+    
+    }
+} 
 
 .percorso {
     display: flex;
